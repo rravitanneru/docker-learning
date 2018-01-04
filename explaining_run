@@ -1,0 +1,9 @@
+ docker container run --publish 80:80 --detach --name webhost nginix:1.11 -T
+
+when we run the docker run command 
+
+docker first check the local image cahce for the image
+if not found that image it will download from the docker rgistry
+it will open ports in container if we specify
+
+runs CMD command specified in the dockefile
