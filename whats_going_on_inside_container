@@ -1,0 +1,15 @@
+we will know whats running inside the container
+with the following commands
+
+1.docker container top-------gives all the process running inside the container
+2.docker container inspect---gives all data about the container in JSON format
+3. docker container stats  --- gives live cpu,memory,disk,network usage
+
+examples of using these commands
+
+docker container container_name/id top
+
+docker container container_name/id stats---live H/W usage
+
+docker container inspect container_name/id   -----all data in JSON format
+
