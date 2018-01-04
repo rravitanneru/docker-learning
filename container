@@ -30,6 +30,6 @@ to check the logs of running container
 7. docker container logs
 8. docker container logs name/container id
 
-9. dcoker container top name/container id
+9. dcoker  top name/container id
 
 to check the process in the container
