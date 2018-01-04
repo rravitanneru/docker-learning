@@ -21,4 +21,15 @@ removes the container forcefully
 6. docker container run --publish 80:80 --detach --name ravi nginix
 
 runs the container with our specified name
+#################################################
 
+logs
+
+to check the logs of running container
+
+7. docker container logs
+8. docker container logs name/container id
+
+9. dcoker container top name/container id
+
+to check the process in the container
