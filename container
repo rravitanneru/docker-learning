@@ -1,0 +1,24 @@
+1. docker container run --publish 80:80 nginix
+the above creates a container of nginix server pulled from dockerhub
+runs in foregroung
+
+2. docker container run --publish 80:80 --detach nginix
+
+creats the container and runs in the background
+
+3. docker container ls -a
+
+shows the containers
+
+4. docker container rm containerid
+
+to remover the container
+
+5.  docker container rm -f container id
+
+removes the container forcefully
+
+6. docker container run --publish 80:80 --detach --name ravi nginix
+
+runs the container with our specified name
+
