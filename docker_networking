@@ -1,0 +1,15 @@
+networking between host and container is done by the network bridge
+
+we can create mutiple virtual networks in dcoker
+
+we can find the container ip address using docker container inspect
+
+or in detial by using
+
+docker container inspect '{.NetworkSettings.IpAddress}' container name/id
+
+if we specify 
+
+-net=host at time of creation it will take hostnetwork as its main network
+
+docker network drivers is another plugin for managing the docker
