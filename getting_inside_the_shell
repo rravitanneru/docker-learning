@@ -1,0 +1,8 @@
+to get inside the shell
+docker run -it -name image command(bash)
+
+it will new start container with bash prompt
+
+docker exec -it --name image command(bash)
+
+it will execute a command on a running container
