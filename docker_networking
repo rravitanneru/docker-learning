@@ -13,3 +13,25 @@ if we specify
 -net=host at time of creation it will take hostnetwork as its main network
 
 docker network drivers is another plugin for managing the docker
+
+we can list mutiple docker-networks with 
+
+docker network ls ------------command
+docker network inspect network name/id to find attached containers
+
+by default docker0 or bridge is a bridged interface for the default docker network
+
+to create a own a docker virtual network
+
+docker network create network_name
+
+to attach a container to virtual network
+
+docker network connect virtual_network_name    container_name/id
+
+docker container inspect container name/id to find the container's default netowrk
+
+create a new docker container with our own virtual network
+
+docker container run -d --network=host --name webhost2 nginx ----this command will bind to hostnetwork
+
