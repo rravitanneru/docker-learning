@@ -1,0 +1,13 @@
+1.docker engine has bultin dns server
+2.docker default bridge network doesn't has the dns option by default
+3.we can use dns in default network bridge using '--link' option
+4.simple by creating another virtual nework and linking container to that networks gives you dns feature
+example
+
+docker container run -d -p 80:80 --network=my_network --name=webhost1 nginx
+docker container run -d -p 80:80 --network=my_network --name=webhost2 nginx
+
+now ping inside wenhost1'or'wenhost1 to wenhost2'or'wenhost1
+
+dns succesfully resoves
+
