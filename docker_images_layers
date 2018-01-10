@@ -1,0 +1,19 @@
+1.docker images has layers
+2.each docker layer has unique sha alagarithom
+3.if we pull the two different images of both has some layers in common
+4.then docker daemon in that host dont pull the the addition layers
+5.so that it will save the space
+illustration of docker image layers
+
+----------------------
+Read/write layer     |  for each container
+----------------------
+CMD layer of command |
+----------------------
+os layer             |
+----------------------
+scratch layer        |
+----------------------
+
+6.if run a container of this image then docker daemon will create a 
+  addtional read/write layer
