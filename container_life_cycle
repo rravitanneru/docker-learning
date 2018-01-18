@@ -1,0 +1,16 @@
+1.Docker container life is very short but the infrastrue is immutable which means re-deploy a exsiting image without no change
+2.Data inside docker container is pershied when the container stops
+3.This creates a problem when running  a database inside the docker container
+4.docker has two solutios for this
+5. 1.volumes   2.Bind mounts
+
+----------------------------------
+volumes
+
+1.volumes are an external storage(from docker host)
+2.Volumes a storage path from the docker host mounted inside the docker when it starts
+3.Volumes are deleted when we remove the container
+4.volumes are still avaliable evena after the docker container deletion
+5.We have to manually delete the voumes
+6. prune is the command in the docker which removed unused
+7.docker volume prune removes the unsed voulmes
