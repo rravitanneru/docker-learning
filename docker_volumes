@@ -1,0 +1,10 @@
+1. volumes will create when specified volume in Dockerfile
+2.docker volume ls will show the existing volumes
+3. do a docker container inspect container name to find the attached volume to it
+4. docker volumes will create a confusion because these are identified by uuids
+5. In this situation named docker volumes comes into the part
+6.named docker volume is nothing but a volume with a name for better understanding
+=----------------------------------------------------------------
+we create a named docker volume like thid
+
+docker container run -d --name mysql -e MYSQL_ALLOW_EMPTY_PASSWORD=TRUE -v mysqldb:/var/lib/mysql mysql
