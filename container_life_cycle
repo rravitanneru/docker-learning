@@ -14,3 +14,10 @@ volumes
 5.We have to manually delete the voumes
 6. prune is the command in the docker which removed unused
 7.docker volume prune removes the unsed voulmes
+-------------------------------------
+BindMounts
+
+1.Bind mounst are also act as volumes 
+2.Difference between volumes,bindmounts is if we change any file in host that will replicate in the docker container in bindmouts
+3.IT is easy for working with local develop environments
+
