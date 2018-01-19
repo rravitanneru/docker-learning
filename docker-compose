@@ -1,0 +1,12 @@
+1.docker compose is used for multi container environment
+2.docker-compose uses yaml file syntax
+3.docker-compose cli (commands to up and run the infrastructure from docker-compose)
+4.like docker cli docker-compose cli also has similar commands 
+
+a.docker-compose up to up the infrastructure
+b.docker-compose down to down the infrastrcure
+c.docker-cmpose logs
+4.docker-compose ps to view process in compose containers
+d.docker-compose top
+etc
+
