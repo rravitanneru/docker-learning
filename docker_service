@@ -1,0 +1,13 @@
+1.docker service is noting but running same container service cross mutiple containers
+2.this is a kind of loadbalancing 
+
+----------------------------------------------------------------------------------------
+example
+
+docker service create --name {name of the service}  image
+
+in the official docker documentaion it looks like this
+
+docker service create --name {name of the service} image 'ping docker.com' this is called arguements
+
+these arguements are not required when we pass a CMD or ENTRYPOINT.sh in our dockerfile
