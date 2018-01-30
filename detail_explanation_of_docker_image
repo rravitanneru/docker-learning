@@ -1,0 +1,9 @@
+docker image bulid is the most important of all things in manaagina a docker
+
+1.docker image bulid is creating a virtual environment for the application to run
+
+2.the main important thing of a docker container is pid 1
+3.pid 1 is the main process runs inside the container we start the container
+4.blindly we a bulid a apache image and  runing it,exposing will not give you the output because the main process apache is not running
+5.in orderd to get the output from the container we need to start the apache service in the container at start time 
+6.this can be achieved by CMD or ENTRYPOINT.sh
